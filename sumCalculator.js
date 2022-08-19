@@ -1,5 +1,5 @@
 const sumCalculator = (input) => {
-  let integer = input.split(" ");
+  const integer = input.split(" ");
   return integer;
 };
 
