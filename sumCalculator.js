@@ -1,9 +1,8 @@
 const sumCalculator = (input) => {
-  const integer = input.split(" ");
-  return integer;
+  return [input, 2.0];
 };
 
-console.log(sumCalculator("1 + 1"));
+console.log(sumCalculator("1 + 3")[2]);
 
 module.exports = sumCalculator;
 
